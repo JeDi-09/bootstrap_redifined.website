@@ -1,0 +1,19 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.map{
+    border-radius: 10px;
+}
+
+.nav-link:hover{
+    color: rgb(38, 38, 239);
+}
+
+@media(min-width:768px){
+    .email-input{
+        width: 50%;
+    }
+}
